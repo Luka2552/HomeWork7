@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1920px;
+  height: 308px;
+  background-color: blue;
+  position: relative;
+}
+
+.title {
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding-left: 100px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.project {
+  width: 30%;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-left: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  text-align: left;
+  margin-top: 360px;
+  width: 350px;
+  height: 100px;
+  padding-left: 10px;
+  margin-top: 380px;
+}
+
+img {
+  width: 463px;
+  height: 420px;
+  position: relative;
+  top: 20px;
+  padding-top: 100px;
+  padding-left: 100px;
+}
